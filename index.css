@@ -67,6 +67,10 @@ padding: 15px 0 40px 20px;
     list-style-type:circle;   
     padding-right: 10px;
 }
+.genre > ul li::after{   
+    padding-left:10px;
+    content:"○";
+ }
 .no-style:nth-child(){
 list-style: none;
 }
