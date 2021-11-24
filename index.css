@@ -36,7 +36,10 @@ header{
 /*main*/
 main{
     /*background-color:#ff0008;*/
-    background: linear-gradient(90deg,#BC3639 7%, black 95%);
+    background:url("img/test.png"), linear-gradient(90deg,#BC3639 , black 50%);   
+    background-repeat: no-repeat;
+    background-position: top  right ;
+    background-position-x: right 50px ;
     display: flex;
     justify-content: flex-start;
 padding: 15px 0 40px 20px;
@@ -94,7 +97,7 @@ footer{
 }
 .description_bas > ul  li {
     display: inline;  
-    padding-right: 25px; cursor:pointer;
+    margin-right: 25px; cursor:pointer;
 }
 .description_bas > ul li:hover {
     color: beige;
@@ -109,7 +112,7 @@ footer{
      margin-top: 30px;
     padding: 0;
 }
-img{
+figure img{
    width: 100%;
 }
 .img-container{
@@ -124,19 +127,57 @@ figcaption{
 /* MEDIA*/
 @media only screen and (max-width:600px){
 
-
+/*MAIN*/
     main{
-        /*background-color:#ff0008;*/
-        background: linear-gradient(90deg,#BC3639 7%, black 95%);
+        background: linear-gradient(180deg,#BC3639 7%, black 95%);
+     
         display: flex;
         flex-direction: column;
-    padding: 15px 0 40px 20px;
+       
+        align-content: center;
     }
-
-    .img-container{
+    .img-cover{
+        width: 
+        70%;
+        padding-right: 0;
+        
+    }
+    #imgz{
+        display: flex;
+       
+        justify-content: center;
+        padding-bottom: 40px;
+    }
+     .img-container{
         width: 100%;
     }
+    #presentation{
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 0px;  
+    }
+    .bouton{
+        justify-content: center;
+    }
+.description_bas > ul{
+    padding-left: 0;
+}
+    .description_bas > ul  li {
+        display: flex;
+        margin-right: 0px; cursor:pointer;
+        padding-bottom: 10px;
+        flex-direction: row;
+    justify-content: center;
 
+    }
+
+    .description_bas > ul  li:hover {
+    
+        border-bottom: unset;
+    
+    }
     /* FOOTER */
     .slider{
         display: flex;
@@ -150,9 +191,6 @@ figcaption{
     figcaption{
         text-align: center;
     }
-    .description_bas {
-        padding: 30px 0 0 0;
-        font-size: 10px;
-    }
+   
     /*END FOOTER */
 }
