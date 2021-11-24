@@ -1,7 +1,6 @@
 /*general*/
 *{
-    margin:0;
-     
+    margin:0;     
 }
 body{
     color: beige;
@@ -41,13 +40,11 @@ main{
     display: flex;
     justify-content: flex-start;
 padding: 15px 0 40px 20px;
-
 }
 .img-cover{
     width: 
     100%;
     padding-right: 15px;
-
 }
 #presentation{
     display: flex;
@@ -57,7 +54,6 @@ padding: 15px 0 40px 20px;
     padding-left: 20px;
 }
 .genre{
-    
     padding-top: 15px;
 }
 .genre> ul {
@@ -88,24 +84,19 @@ list-style: none;
 /*Footer*/
 footer{
     background-color: #1D2126;
-   
 }
 .description_bas {
-   
     padding: 30px 0 0 0;
     font-size: 11px;
-  
 }
 .description_bas  ul {   
     color: gray;
-
 }
 .description_bas > ul  li {
     display: inline;  
-    padding-right: 25px;
+    padding-right: 25px; cursor:pointer;
+   
 }
-
-
 .description_bas > ul li:hover {
     color: white;
 }
