@@ -95,15 +95,16 @@ footer{
 .description_bas > ul  li {
     display: inline;  
     padding-right: 25px; cursor:pointer;
-   
 }
 .description_bas > ul li:hover {
-    color: white;
+    color: beige;
+    border-bottom: beige solid 2px;
+    padding-bottom: 15px; 
 }
 .slider{
     display: flex;
     justify-content:flex-start;
-    color: white;
+    color: beige;
     width: 100%;
      margin-top: 30px;
     padding: 0;
@@ -114,7 +115,7 @@ img{
 .img-container{
     width: 25%;
 }
-.title-footer{
-    padding:15px;
+figcaption{
+    padding: 10px 0;
 }
 /*fin footer*/
