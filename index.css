@@ -1,0 +1,129 @@
+/*general*/
+*{
+    margin:0;
+     
+}
+body{
+    color: beige;
+    padding: 20px;
+    background: black;
+}
+h1{
+    font-size: 25px;
+    padding : 10px 0;
+}
+h2{
+    font-weight:normal;
+}
+/*fin general*/
+
+/*header*/
+header{
+    background-color: #A63740;
+}
+#tete{
+    display: flex;
+    align-items: center;
+}
+.title{
+    flex:1;
+    text-align: center;
+}
+.close{
+    padding-right: 15px ;
+}
+/*fin header*/
+
+/*main*/
+main{
+    /*background-color:#ff0008;*/
+    background: linear-gradient(90deg,#BC3639 7%, black 95%);
+    display: flex;
+    justify-content: flex-start;
+padding: 15px 0 40px 20px;
+
+}
+.img-cover{
+    width: 
+    100%;
+    padding-right: 15px;
+
+}
+#presentation{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding-right: 20%;
+    padding-left: 20px;
+}
+.genre{
+    
+    padding-top: 15px;
+}
+.genre> ul {
+    padding-left: 0; 
+}
+.genre > ul li{    
+  display: inline;
+    list-style-type:circle;   
+    padding-right: 10px;
+}
+.no-style:nth-child(){
+list-style: none;
+}
+.description{
+    padding-top: 15px;
+}
+.bouton{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.play, .episodes, .ajouter{
+    padding-top: 15px;
+    padding-right: 10px;
+}
+/*fin main*/
+
+/*Footer*/
+footer{
+    background-color: #1D2126;
+   
+}
+.description_bas{
+   
+    padding: 30px 0 0 0;
+    font-size: 11px;
+  
+}
+.description_bas  ul {   
+    color: gray;
+
+}
+.description_bas > ul  li {
+    display: inline;  
+    padding-right: 25px;
+}
+
+
+.description_bas > ul li:hover {
+    color: white;
+}
+.slider{
+    display: flex;
+    justify-content:flex-start;
+    color: white;
+    width: 100%;
+     margin-top: 30px;
+    padding: 0;
+}
+img{
+   width: 100%;
+}
+.img-container{
+    width: 25%;
+}
+.title-footer{
+    padding:15px;
+}
+/*fin footer*/
